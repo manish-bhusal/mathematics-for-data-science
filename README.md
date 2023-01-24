@@ -34,6 +34,14 @@ Percentile is a commonly used measure in statistics and it is used to understand
 
 Percentiles are also used in many other fields like finance, healthcare and many more. Percentiles can be used to understand how a particular value compares to other values in a dataset, which can be useful for making decisions or comparing different groups of data.
 
+**Formula to Calculate _Percentile:_**
+
+Percentile = (Number of Values Below “x” / Total Number of Values) × 100
+
+Value = Percentile / 100 × (n+1)
+
+**Watch this video to understand [Percentile](https://www.youtube.com/watch?v=OES4fdLEHkw)**
+
 # Quantiles
 
 Quantiles are similar to percentiles in that they divide a dataset into equal parts and tell you where a particular value falls in relation to the rest of the values. However, unlike percentiles, which divide the dataset into 100 parts, quantiles divide the dataset into a specified number of parts.
