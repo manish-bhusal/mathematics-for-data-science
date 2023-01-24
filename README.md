@@ -34,6 +34,14 @@ Percentile is a commonly used measure in statistics and it is used to understand
 
 Percentiles are also used in many other fields like finance, healthcare and many more. Percentiles can be used to understand how a particular value compares to other values in a dataset, which can be useful for making decisions or comparing different groups of data.
 
+**The 25th percentile is also called the first quartile.**
+
+**The 50th percentile is generally the median.**
+
+**The 75th percentile is also called the third quartile.**
+
+**The difference between the third and first quartiles is the interquartile range.**
+
 **Formula to Calculate _Percentile:_**
 
 Percentile = (Number of Values Below “x” / Total Number of Values) × 100
