@@ -12,6 +12,8 @@ So, statistics is like a tool that helps us understand data, like the blocks in 
 
 # Descriptive Statistics Vs. Inferential Statistics
 
+When you're doing data analysis, you are conducting experiment or you're taking numbers for a group of people or group of objects. So that is called a population. And when you're take into account the entire population in your data analysis process, it is called descriptive statistics. And when you take a few samples for your process & then you say this anylysis applies to the entire population, it is called inferential statistics.
+
 Descriptive statistics is used to summarize and describe data. It helps us understand what the data looks like and what the main patterns and features are. For example, if you have a set of numbers that represent the heights of people in a group, you can use descriptive statistics to find the average height (mean) and the most common height (mode) and how much the heights vary(standard deviation) in that group. You can also use visual tools like histograms, box plots, etc to understand the distribution of data.
 
 Inferential statistics, on the other hand, is used to make predictions or inferences about a larger population based on a sample of data. For example, if you survey a small group of people about their political views and want to know what the views of all people are, you can use inferential statistics to make predictions about the views of the entire population based on the views of the people in your sample. This is done by using statistical models to estimate population parameters from sample statistics.
