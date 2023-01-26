@@ -61,3 +61,37 @@ Similarly, if you want to divide a dataset into 5 parts, you would use quintiles
 In general, quantiles are useful for understanding the distribution of a dataset and for comparing different groups of data. They can be used to identify outliers, or values that are significantly different from the rest of the values in the dataset. In addition, quantiles can also be used to identify the spread of the data, for example, if the difference between first and third quartile is large, it means the data is spread out.
 
 In summary, quantiles are similar to percentiles in that they divide a dataset into equal parts and tell you where a particular value falls in relation to the rest of the values, but unlike percentiles, which divide the dataset into 100 parts, quantiles divide the dataset into a specified number of parts.
+
+# Standard Deviation and Mean Absolute Deviation
+
+Imagine you have a group of 10 numbers, like the ages of your friends in a class. The average of those numbers is called the mean.
+
+The standard deviation is a measure of how spread out the numbers are from the average. For example, if all of your friends' ages are very close to the average age, the standard deviation will be small. But if some of your friends are much older or younger than the others, the standard deviation will be larger.
+
+Mean Absolute Deviation (MAD) is another measure of how spread out the numbers are from the average. The MAD is found by taking the average of the absolute differences between each number and the mean. The difference between the two concepts is that the standard deviation is computed using the square of the differences while MAD uses the absolute value of the differences.
+
+For example, let's say the ages of your friends in the class are: 8, 9, 8, 9, 10, 8, 7, 8, 9, 10. The mean is 8.5.
+
+To find the standard deviation, first find the difference between each number and the mean. Then square each difference and add them all up. Finally, divide the sum by the number of numbers you started with (10) and take the square root of that number.
+
+To find the MAD, first find the difference between each number and the mean. Then take the absolute value of each difference, add them all up and divide the sum by the number of numbers you started with (10).
+
+# Why is standard deviation considered to be a better measure of spread when dealing with outliers?
+
+Standard deviation is considered to be a better measure of spread than mean absolute deviation (MAD) in some cases because it is more sensitive to outliers.
+
+An outlier is a number that is much larger or smaller than the other numbers in the group. For example, if all of your friends' ages were 8, 9, and 10, except for one who is 20 years old, that 20-year-old would be an outlier.
+
+The standard deviation will be larger when there are outliers because it takes the square of the differences between each number and the mean, so the large differences caused by outliers will have a greater impact on the standard deviation than on the MAD.
+
+On the other hand, MAD is less sensitive to outliers, because it only takes the absolute value of the differences between each number and the mean, so the large differences caused by outliers will have the same impact as small differences.
+
+For example, let's say you have two groups of numbers:
+
+**Group 1:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+**Group 2:** 1, 2, 3, 4, 5, 100
+
+The mean of both groups is the same, 5. But the standard deviation of group 2 is much larger than that of group 1 because of the outlier 100. The MAD of both groups is also the same, 4.5 which is the same for both group.
+
+In conclusion, Standard deviation is a better measure of spread when you want to take into account outliers, while mean absolute deviation is a better measure when you want to ignore outliers.
